@@ -27,6 +27,11 @@ This project implements a backend for a weather notification service using Flask
 - **Unsubscribe from alerts:** Send a POST request to `/api/unsubscribe` with the observer ID.
 - **Trigger weather check:** Access `/api/notify` to manually trigger a check for current weather conditions.
 
+## Front-end Project
+This backend is designed to work seamlessly with its React Native front-end counterpart, which provides a user interface for subscribing to weather alerts and receiving real-time notifications. The front-end application utilizes Socket.IO for real-time communication with this backend, demonstrating a complete system that leverages the Observer Pattern for delivering weather updates to users.
+
+Check out the front-end project here: [Weather App Front-end](https://github.com/nemanjatan/weather-app/)
+
 ## Contributing
 
 Contributions to the project are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
